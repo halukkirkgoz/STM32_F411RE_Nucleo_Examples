@@ -1,0 +1,6 @@
+"./Drivers/Src/stm32f411xe_gpio.o"
+"./Src/005_Onboard_LED_Output_by_Scanning_Input_Pin.o"
+"./Src/itm_send_data.o"
+"./Src/syscalls.o"
+"./Src/sysmem.o"
+"./Startup/startup_stm32f411retx.o"
