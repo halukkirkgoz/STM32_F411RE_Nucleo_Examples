@@ -1,55 +1,90 @@
-# Prerequisites
+# ================================================
+# Operating System & Generic Junk Files
+# ================================================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# ================================================
+# Prerequisites & Dependency Files
+# ================================================
 *.d
 
-# Object files
+# ================================================
+# Object Files, Linker Outputs, Precompiled 
+# Headers, Libraries, Shared Objects & Executables
+# ================================================
 *.o
 *.ko
 *.obj
 *.elf
-
-# Linker output
 *.ilk
 *.map
 *.exp
-
-# Precompiled Headers
 *.gch
 *.pch
-
-# Libraries
 *.lib
 *.a
 *.la
 *.lo
-
-# Shared objects (inc. Windows DLLs)
 *.dll
 *.so
 *.so.*
 *.dylib
-
-# Executables
 *.exe
 *.out
 *.app
 *.i*86
 *.x86_64
 *.hex
+*.bin
+*.cyclo
 
-# Debug files
+# ================================================
+# Debug & Log Files
+# ================================================
 *.dSYM/
 *.su
 *.idb
 *.pdb
+*.dwo
+st-link_gdbserver_log.txt
 
-# Kernel Module Compile Results
-*.mod*
+# ================================================
+# Kernel Module Build Artifacts
+# ================================================
+*.mod
+*.mod.c
 *.cmd
 .tmp_versions/
 modules.order
 Module.symvers
 Mkfile.old
-dkms.conf
 
-# debug information files
-*.dwo
+# ================================================
+# STM32CubeIDE / Eclipse Metadata & Settings
+# ================================================
+.metadata/
+.settings/
+*.launch
+
+# Local Developer Overrides (if any)
+.cproject.local
+.project.local
+
+# ================================================
+# Build Output Directories & Generated Makefiles
+# ================================================
+Debug/
+Release/
+[Dd]ebug/
+[Rr]elease/
+
+compile_commands.json
+objects.list
+objects.mk
+sources.mk
+subdir.mk
+makefile
